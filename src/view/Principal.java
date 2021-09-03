@@ -10,7 +10,8 @@ public class Principal {
 		
 		OrdenacaoController oCont = new OrdenacaoController();
 //		vetor = oCont.bubbleSort(vetor);
-		vetor = oCont.mergeSort(vetor, 0, vetor.length - 1);
+//		vetor = oCont.mergeSort(vetor, 0, vetor.length - 1);
+		vetor = oCont.quickSort(vetor, 0, vetor.length - 1);
 		
 		System.out.println("");
 		System.out.println("=======================================");
